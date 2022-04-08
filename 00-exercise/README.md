@@ -30,7 +30,7 @@ Las ventas pueden ser en efectivo o con tarjeta. En el caso que sea con tarjeta,
 ### Tipos de Prenda
 ### Precios de Prenda
 ### Cantidad de Ventas
-### Ganancia de Ventas por Día\n
+### Ganancia de Ventas por Día
 
 
 ## Diagrama de clases:
