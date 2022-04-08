@@ -1,4 +1,4 @@
-Maco Wins
+### Maco Wins
 
 Se requiere:
 
@@ -25,21 +25,21 @@ Las ventas pueden ser en efectivo o con tarjeta. En el caso que sea con tarjeta,
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-Requerimientos:
+## Requerimientos:
 
-# Tipos de Prenda
-# Precios de Prenda
-# Cantidad de Ventas
-# Ganancia de Ventas por Día
-
-
-Diagrama de clases:
-
-## Se adjunta una foto del diagrama de clases
+### Tipos de Prenda
+### Precios de Prenda
+### Cantidad de Ventas
+### Ganancia de Ventas por Día
 
 
-Considere lo que considere necesario:
+## Diagrama de clases:
 
-# Se adjunta el código en Java del ejercicio. 
-## Es un primer encuentro con el lenguaje.
-### Faltan los test y las excepctions
+#### Se adjunta una foto del diagrama de clases
+
+
+## Considere lo que considere necesario:
+
+### Se adjunta el código en Java del ejercicio. 
+#### Es un primer encuentro con el lenguaje.
+#### Faltan los test y las excepctions
