@@ -16,7 +16,7 @@ public class Negocio {
     double gananicas(Date fecha){
         List<Venta> ventasDelDia = ventas.stream().filter(venta -> fueVendidoElDia(venta, fecha)).collect(Collectors.toList());
 
-        return ventasDelDia.stream().mapToDouble(ventas -> ventas.importe()).sum();
+        return ventasDelDia.stream().mapToDouble(ventas -> ventas.precioFinal(ventas.medioDePago)).sum();
     }
 
     public boolean fueVendidoElDia(Venta venta, Date unDia){
