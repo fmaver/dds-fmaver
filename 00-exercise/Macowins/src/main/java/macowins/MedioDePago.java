@@ -1,6 +1,6 @@
 package macowins;
 
 public abstract class MedioDePago {
-    public abstract double recargo(double precio);
+    public abstract double precioConRecargo(double precio);
 }
 

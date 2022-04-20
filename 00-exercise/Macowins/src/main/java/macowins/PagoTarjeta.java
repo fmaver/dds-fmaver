@@ -10,7 +10,7 @@ public class PagoTarjeta extends MedioDePago{
     }
 
     @Override
-    public double recargo(double precio) {
+    public double precioConRecargo(double precio) {
         return (cantidadCuotas * coeficiente) + (0.01 * precio);
     }
 }

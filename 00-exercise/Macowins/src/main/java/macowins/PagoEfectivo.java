@@ -1,7 +1,7 @@
 package macowins;
 
 public class PagoEfectivo extends MedioDePago {
-    public double recargo(double precio){
-        return 0;
+    public double precioConRecargo(double precio){
+        return precio;
     }
 }
