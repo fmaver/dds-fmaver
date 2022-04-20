@@ -40,6 +40,5 @@ Las ventas pueden ser en efectivo o con tarjeta. En el caso que sea con tarjeta,
 
 ## Considere lo que considere necesario:
 
-### Se adjunta el código en Java del ejercicio. 
-#### Es un primer encuentro con el lenguaje.
-#### Faltan los test y las excepctions
+### Se adjunta un primer código en Java del ejercicio (no terminado). 
+#### Es un primer encuentro con el lenguaje. Falta desarrollarlo, aprender a usar el lenguaje, correr test, exceptions, etc.
