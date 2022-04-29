@@ -1,6 +1,7 @@
 package queMePongo;
+import queMePongo.prenda.Categoria;
+import queMePongo.prenda.Prenda;
 
-//import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedHashMap;
 import java.util.List;
