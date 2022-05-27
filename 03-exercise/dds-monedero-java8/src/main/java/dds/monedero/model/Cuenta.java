@@ -12,7 +12,7 @@ import java.util.List;
 public class Cuenta {
 
   private double saldo;
-  private List<Movimiento> movimientos = new ArrayList<>();
+  private final List<Movimiento> movimientos = new ArrayList<>();
 
   public Cuenta() {
     saldo = 0;
@@ -49,8 +49,7 @@ public class Cuenta {
     }
   }
 
-  public void agregarMovimiento(LocalDate fecha, double cuanto, boolean esDeposito) {
-    Movimiento movimiento = new Movimiento(fecha, cuanto, esDeposito);
+  public void agregarMovimiento(Movimiento movimiento) {
     movimientos.add(movimiento);
   }
 
