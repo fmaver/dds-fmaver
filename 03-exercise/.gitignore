@@ -23,5 +23,5 @@ release.properties
 
 # IntelliJ IDEA files
 *.iml
-.idea/**
+.idea/vcs.xml
 
