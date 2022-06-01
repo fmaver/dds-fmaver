@@ -24,11 +24,7 @@ public class Prenda {
         return this.categoria;
     }
 
-    public static class PrendaInvalidaException extends RuntimeException {
-        public PrendaInvalidaException(String causa) {
-            super("La prenda es inválida porque " + causa);
-        }
-    }
+
 
 }
 
