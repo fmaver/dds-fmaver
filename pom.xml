@@ -8,11 +8,16 @@
   <groupId>ar.edu.utn.frba.dds</groupId>
   <artifactId>ejercicio</artifactId>
   <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
 
-  <name>ejercicio</name>
+    <name>ejercicio</name>
   <url>https://github.com/dds-utn</url>
+    <modules>
+        <module>ValidadorCorrelativas</module>
+        <module>TendenciasMusicales</module>
+    </modules>
 
-  <properties>
+    <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
